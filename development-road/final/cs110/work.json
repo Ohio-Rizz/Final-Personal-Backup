@@ -11,7 +11,11 @@
       "save",
       "branch",
       "settings",
-      "external"
+      "external",
+      "modular",
+      "levels",
+      "dialogue",
+      "tests"
     ],
     "engine": "Unity / C#",
     "environmentTest": true,
@@ -43,8 +47,8 @@
     },
     "evidence": {},
     "dailyDraft": {
-      "meeting": "",
-      "worked": "",
+      "meeting": "CS110-2026-11-17",
+      "worked": "I solved technical difficulties with my team and",
       "next": "",
       "blocker": "",
       "evidence": ""
@@ -79,6 +83,30 @@
         "code": "R13",
         "title": "External playtest and revision",
         "evidence": "Use consented feedback from at least three testers; document problems, fixes and retest evidence."
+      },
+      {
+        "id": "modular",
+        "code": "R09",
+        "title": "Modular architecture",
+        "evidence": "Show a module/class diagram, clear responsibilities and a change made without rewriting unrelated systems."
+      },
+      {
+        "id": "levels",
+        "code": "R15",
+        "title": "Three distinct levels or scenarios",
+        "evidence": "Deliver three complete, meaningfully different scenarios using shared systems and test each."
+      },
+      {
+        "id": "dialogue",
+        "code": "R06",
+        "title": "Reusable dialogue or interaction system",
+        "evidence": "Use data-driven interactions in more than one situation; show how new content can be added."
+      },
+      {
+        "id": "tests",
+        "code": "R10",
+        "title": "Automated regression tests",
+        "evidence": "Run meaningful normal, boundary and failure tests. Show a defect the suite detects."
       }
     ],
     "tasks": [],
