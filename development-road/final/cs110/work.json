@@ -8,10 +8,11 @@
     "projectDescription": "Cyber Bounty Hunter\n\nDATA\n\nAugmented reality\nCyberpunk \nHSC - Araska esk company/Mega Corpo\nEvil Synths\nEvil cyborgs\nSymbiotes \nSpace is possible in this world - What is available?\nCentered city - What name is it? \n\n3D world- Highlighted portion is our Game for the assignment\n\nHow does the player get to the bountys? Gameplay Loop Routes\n- Route 1: Info Brokers (Expensive/Straight to the point/Reputation System Audience: Speedrunner)\n(Arcade Mode: Use the Info Broker, FIght powered up Enemies back to back, Select Race: Each has drawbacks and buffs,) \n- Route 2: Investigating Clues (Longer Game loop but hidden story layer revealed)\n\nPremise \nBounty Hunters find evil synths, cyborgs, symbiotes, and living beings. Player gets credits for completing tasks/bounties which contribute to general living (Upgrades/Better housing)\n\nRogue Products - Cyborgs, Synth (Detroit become human), Symbiotes\n\nRogues/Criminals: Normal people/Aliens\n\nPlayer: They could choose their own race, Basically hunting down their own people. \n\nStory:\n Light Backstory of the CIty and the PC \nWho what when why when?\nFocused on the city and the reasons why the bounty hunter is hunting these rogues and why they are here. \nInner Story hidden under gameplay\n\n\nWorld building\nNeon Signs\nDystopian Vibe\nDark\nSlums\nTall buildings\nAlleyways \nHovercrafts\nWatchposts/Camera\nBig Brother\nPropganda On every street\nLack of Trees/Greenery is Scarce (Only found in higher districts\nBasic Needs Expensive",
     "path": "arcade",
     "selected": [
-      "save",
-      "external",
       "modular",
-      "levels"
+      "levels",
+      "secure",
+      "database",
+      "dialogue"
     ],
     "engine": "Unity / C#",
     "environmentTest": true,
@@ -57,18 +58,6 @@
         "evidence": "Working source and build (60); authored program logic (35); meaningful tests (20); run guide and evidence map (20); individual explanation (15)."
       },
       {
-        "id": "save",
-        "code": "R02",
-        "title": "Save and restore progress",
-        "evidence": "Save meaningful state; close and reopen the program; demonstrate correct restoration and invalid-file handling."
-      },
-      {
-        "id": "external",
-        "code": "R13",
-        "title": "External playtest and revision",
-        "evidence": "Use consented feedback from at least three testers; document problems, fixes and retest evidence."
-      },
-      {
         "id": "modular",
         "code": "R09",
         "title": "Modular architecture",
@@ -79,6 +68,24 @@
         "code": "R15",
         "title": "Three distinct levels or scenarios",
         "evidence": "Deliver three complete, meaningfully different scenarios using shared systems and test each."
+      },
+      {
+        "id": "secure",
+        "code": "R11",
+        "title": "Secure input and data handling",
+        "evidence": "Document threats relevant to the project and test validation, safe error handling and protection of private data."
+      },
+      {
+        "id": "database",
+        "code": "R16",
+        "title": "Database-backed workflow",
+        "evidence": "Use a documented schema, parameterized operations, validation and recovery; demonstrate actual CRUD."
+      },
+      {
+        "id": "dialogue",
+        "code": "R06",
+        "title": "Reusable dialogue or interaction system",
+        "evidence": "Use data-driven interactions in more than one situation; show how new content can be added."
       }
     ],
     "tasks": [],
