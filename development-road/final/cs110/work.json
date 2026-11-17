@@ -1,5 +1,6 @@
 {
   "schema": "final-road-work-v1",
+  "payloadVersion": 2,
   "course": "CS110",
   "name": "Andy Jimenez",
   "work": {
@@ -12,6 +13,7 @@
       "modular"
     ],
     "engine": "Unity / C#",
+    "environmentTest": true,
     "gitEvidence": "My read.me change when I edited it.",
     "ai": "ChatGpt",
     "aiVerify": "It ran",
@@ -19,6 +21,7 @@
     "plan": "",
     "availability": "",
     "service": "",
+    "supportMode": "team",
     "role": "Developer",
     "board": {
       "nodes": [],
@@ -38,7 +41,70 @@
       "questions": ""
     },
     "evidence": {},
+    "dailyDraft": {
+      "meeting": "",
+      "worked": "",
+      "next": "",
+      "blocker": "",
+      "evidence": ""
+    },
+    "requirements": [
+      {
+        "id": "core",
+        "code": "R01",
+        "title": "Working project foundation",
+        "evidence": "Working source and build (60); authored program logic (35); meaningful tests (20); run guide and evidence map (20); individual explanation (15)."
+      },
+      {
+        "id": "save",
+        "code": "R02",
+        "title": "Save and restore progress",
+        "evidence": "Save meaningful state; close and reopen the program; demonstrate correct restoration and invalid-file handling."
+      },
+      {
+        "id": "external",
+        "code": "R13",
+        "title": "External playtest and revision",
+        "evidence": "Use consented feedback from at least three testers; document problems, fixes and retest evidence."
+      },
+      {
+        "id": "modular",
+        "code": "R09",
+        "title": "Modular architecture",
+        "evidence": "Show a module/class diagram, clear responsibilities and a change made without rewriting unrelated systems."
+      }
+    ],
     "tasks": [],
     "dailyNotes": []
-  }
+  },
+  "team": {
+    "name": "Human Systems Check",
+    "mode": "team",
+    "project": "Bounty Hunters",
+    "projectRepo": "",
+    "members": [
+      {
+        "name": "Leah Aluni",
+        "role": "Team Lead"
+      },
+      {
+        "name": "Andy Jimenez",
+        "role": "Developer"
+      },
+      {
+        "name": "Christopher Guillen",
+        "role": "Game organizer / Creative Co-director"
+      },
+      {
+        "name": "Caleb Jackson",
+        "role": "Team member"
+      }
+    ]
+  },
+  "sharedPlan": {
+    "goal": "",
+    "plan": "",
+    "tasks": []
+  },
+  "completedReports": []
 }
