@@ -10,7 +10,8 @@
     "selected": [
       "save",
       "branch",
-      "settings"
+      "settings",
+      "external"
     ],
     "engine": "Unity / C#",
     "environmentTest": true,
@@ -72,6 +73,12 @@
         "code": "R04",
         "title": "Settings that persist",
         "evidence": "Provide useful settings, validate changes, save them and demonstrate restoration. This must extend beyond the same progress data."
+      },
+      {
+        "id": "external",
+        "code": "R13",
+        "title": "External playtest and revision",
+        "evidence": "Use consented feedback from at least three testers; document problems, fixes and retest evidence."
       }
     ],
     "tasks": [],
@@ -97,7 +104,15 @@
       },
       {
         "name": "Caleb Jackson",
-        "role": "Team member"
+        "role": "Researcher"
+      },
+      {
+        "name": "Nick 3",
+        "role": "Developer"
+      },
+      {
+        "name": "George Arbache",
+        "role": "Idea Pitcher"
       }
     ]
   },
