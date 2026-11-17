@@ -10,7 +10,8 @@
     "selected": [
       "save",
       "external",
-      "modular"
+      "modular",
+      "levels"
     ],
     "engine": "Unity / C#",
     "environmentTest": true,
@@ -72,6 +73,12 @@
         "code": "R09",
         "title": "Modular architecture",
         "evidence": "Show a module/class diagram, clear responsibilities and a change made without rewriting unrelated systems."
+      },
+      {
+        "id": "levels",
+        "code": "R15",
+        "title": "Three distinct levels or scenarios",
+        "evidence": "Deliver three complete, meaningfully different scenarios using shared systems and test each."
       }
     ],
     "tasks": [],
