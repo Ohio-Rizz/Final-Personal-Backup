@@ -48,10 +48,10 @@
     "evidence": {},
     "dailyDraft": {
       "meeting": "CS110-2026-11-19",
-      "worked": "I storyboarded my game with Caleb. We established",
-      "next": "",
-      "blocker": "",
-      "evidence": ""
+      "worked": "I storyboarded my game with Caleb. We established the direction in which we would like our game to go.",
+      "next": "continue establishing the story and direction.",
+      "blocker": "Nothing at the moment.",
+      "evidence": "https://github.com/Ohio-Rizz/Final-Personal-Backup"
     },
     "requirements": [
       {
@@ -110,7 +110,17 @@
       }
     ],
     "tasks": [],
-    "dailyNotes": []
+    "dailyNotes": [
+      {
+        "date": "2026-11-19",
+        "revision": 1,
+        "worked": "I storyboarded my game with Caleb. We established the direction in which we would like our game to go.",
+        "next": "continue establishing the story and direction.",
+        "blocker": "Nothing at the moment.",
+        "evidence": "https://github.com/Ohio-Rizz/Final-Personal-Backup",
+        "tasks": []
+      }
+    ]
   },
   "team": {
     "name": "Human Systems Check",
